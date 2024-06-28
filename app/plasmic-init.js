@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { initPlasmicLoader } from '@plasmicapp/loader-react';
-import { FeaturedProducts } from '~/components/FeaturedProducts';
+//import { FeaturedProducts } from '~/components/FeaturedProducts';
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
@@ -14,7 +14,7 @@ export const PLASMIC = initPlasmicLoader({
   preview: true,
 });
 
-PLASMIC.registerComponent(FeaturedProducts, {
+/*PLASMIC.registerComponent(FeaturedProducts, {
   name: 'FeaturedProducts',
   props: {
     count: {
@@ -31,4 +31,4 @@ PLASMIC.registerComponent(FeaturedProducts, {
       hidden: () => true,
     },
   },
-});
+});*/

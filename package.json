@@ -27,6 +27,8 @@
   },
   "devDependencies": {
     "@graphql-codegen/cli": "5.0.2",
+    "@plasmicapp/loader-react": "^1.0.359",
+    "@plasmicapp/model-renderer-react": "^0.0.4",
     "@remix-run/dev": "^2.9.2",
     "@remix-run/eslint-config": "^2.9.2",
     "@shopify/hydrogen-codegen": "^0.3.1",
